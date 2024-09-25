@@ -1,0 +1,40 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: black;
+    height: 100vh; /* altura */
+    width: 100vw; /* largura */
+    padding:10px; /* espaçamento */
+    display: flex; /* toda div bloqueia os elementos. Para desbloquear a div eu dou um displar: flex
+    desbloqueando a div eu consigo utilziar o justify-content */
+    justify-content:center;
+}
+
+.item {
+    background-color: bisque;
+    margin: 10px;
+    font-size: 22px;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    align-items: center;
+    align-items:flex-start;
+
+}
+
+.box {
+    background-color: aquamarine;
+    margin: 10px;
+    font-size: 22px;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    justify-content: center;
+
+
+
+}
